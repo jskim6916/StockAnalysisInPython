@@ -43,7 +43,7 @@ plt.imshow(mpimg.imread('src.png')) # 원본 파일을 읽어서 이미지로 �
 plt.subplot(122) # 1행 2열의 영역에서 두 번째 영역으로 지정 
 plt.title('Pseudocolor Image')
 dst_img = mpimg.imread('dst.png')
-pseudo_img = dst_img [:, :, 0]  # 의사 색상 적용
+pseudo_img = dst_img[:, :, 0]  # 의사 색상 적용
 plt.imshow(pseudo_img) 
 plt.show()
 
